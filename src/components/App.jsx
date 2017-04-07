@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { addReminder } from '../actions';
 import '../App.css';
 
 class App extends Component {
@@ -10,7 +12,7 @@ class App extends Component {
   }
 
   addReminder() {
-    console.log('this state', this.state);
+    this.props.addReminder(this.state.text);
   }
 
   render() {
@@ -30,4 +32,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect(null, { addReminder })(App);
