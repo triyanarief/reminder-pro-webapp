@@ -12,6 +12,8 @@ body {
 .title {
   text-align: center;
   font-size: 26px;
+  color: white;
+  font-weight: bold;
 }
 
 input {
