@@ -1,5 +1,5 @@
 body {
-  background-color: salmon;
+  background-color: #efef69;
 }
 
 .App {
@@ -12,7 +12,6 @@ body {
 .title {
   text-align: center;
   font-size: 26px;
-  color: white;
   font-weight: bold;
 }
 
